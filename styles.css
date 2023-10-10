@@ -20,23 +20,23 @@ body {
     right: 0;
     margin: 0 auto;
     width: 80%;
+    max-width: 2000px;
     padding-top: 30px;
     padding-bottom: 30px; 
     display: flex;
-    justify-content: center;
-    gap: 800px;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hero-container {
     background: #1f2937;
     padding-top: 150px;
-    gap: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
+    gap: 100px;
 }
 
 .main-container {
@@ -58,7 +58,6 @@ body {
     color: #f9faf8;
     font-weight: 700;
     text-decoration: none;
-    margin-left: 100px;
 }
 
 .navbar a {
@@ -69,12 +68,8 @@ body {
     margin-left: 25px;
 }
 
-#contact {
-    margin-right: 100px;
-}
-
 .hero-content {
-    padding: 0px;
+    padding: 30px;
     max-width: 500px;
     align-items: center;
 }
