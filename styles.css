@@ -101,7 +101,6 @@ body {
     font-size: 24px;
     width: 140px;
     padding: 12px;
-    border: none;
     border-radius: 7px;
     margin-top: 10px;
     border: 2px solid #f9faf8;
@@ -130,6 +129,9 @@ body {
     margin: 25px;
 }
 
+.cat-box p {
+    text-align: center;
+}
 
 .cat-image {
     height: auto;
@@ -170,4 +172,38 @@ body {
     font-weight: 900;
     text-align: right;
     font-style: italic;
+}
+
+.sub-box {
+    background-color: #3882f6;
+    width: 70%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-two {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 24px;
+    width: 140px;
+    padding: 12px;
+    border-radius: 7px;
+    border: 2px solid #f9faf8;
+}
+
+.sub-title {
+    color: #f9faf8;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.sub-info {
+    color: #f9faf8;
+    font-size: 20px;
 }
