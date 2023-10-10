@@ -31,6 +31,7 @@ body {
 .hero-container {
     background: #1f2937;
     padding-top: 150px;
+    padding-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +42,7 @@ body {
 
 .main-container {
     background: #fff;
+    padding-top: 50px;
 }
 
 .quote-container {
@@ -97,12 +99,49 @@ body {
     border-radius: 7px;
     margin-top: 10px;
     border: 2px solid #f9faf8;
-     
-
 }
 
 .hero-image {
     max-width: 600px;
     border: 7px solid #f9faf8;
     border-radius: 5px;
+}
+
+.main-container h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.cat-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border: 5px solid #1f2937;
+    border-radius: 5px;
+    margin: 25px;
+}
+
+
+.cat-image {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.main-container p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f2937;
+    text-align: center;
+}
+
+.cat-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
