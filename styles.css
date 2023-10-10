@@ -43,10 +43,16 @@ body {
 .main-container {
     background: #fff;
     padding-top: 50px;
+    padding-bottom: 75px;
+    margin: 0 auto;
 }
 
 .quote-container {
     background: #e5e7eb;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 .footer-container {
@@ -132,7 +138,7 @@ body {
 }
 
 
-.main-container p {
+.main-content p {
     font-size: 20px;
     font-weight: 500;
     color: #1f2937;
@@ -143,5 +149,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.quote-content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.name {
+    display: block;
+    font-size: 24x;
+    font-weight: 900;
+    text-align: right;
+    font-style: italic;
 }
